@@ -1,74 +1,74 @@
 # 基于滴滴GPS位置大数据的商场营销决策平台
 ##作品功能介绍
 1、主界面一览
- ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+ ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/1.png)
 2、主要功能
 NovMap主要功能分为基础功能和核心功能量大类，其中基础功能9个，核心功能3个，具体如下图所示：
- 
+  ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/2.png)
 3、基础功能介绍
 1）图层控制
 通过图层控制控件可以浏览、选择显示或隐藏除底图以外的任意一个图层，同时可以对图层进行如下图的基本操作：缩放、设置透明度、设置显示层级等。
-  
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/3.png)
 2）图例查看
 通过此功能可以查看地图中的图例样式
- 
+  ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/4.png)
 3）底图库
 底图库功能可实现不同需求的底图变换，除了界面的样式变化，地图的配色及POI点的展示也是多种多样，同时针对不同主题还会给用户不同的推荐信息，如商场购物地图中着重强调了商场，在售品牌等信息。因此可以根据不同的业务需要利用参赛数据定制不同的地图，根据用户需求场景实现底图替换，以满足显示效果的需要。
- 
- 
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/6.png)
+  ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/5.png)
 4）属性查看
 通过属性查看功能，可以对地图图层属性表的信息进行全面的查看。
- 
+  ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/7.png)
 在属性查看功能中，支持根据属性数据缩放至地图相应视野的功能，也能对属性表进行操作，例如导出CSV文件，属性表的筛选等。
 5）导出CSV文件
- 
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/8.png)
 6）属性表筛选、查找
- 
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/9.png)
 7）搜索框查询
 在搜索框中输入希望搜索的商场名称，对商场进行搜索，搜索结果将以地图弹出框形式展现，弹出框内会展示基本的商场信息以及对此商场的品牌分类别的统计。商场的类别主要分为：男装，女装，鞋类和综合类。
- 
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/10.png)
 8）点击浏览查询
 对地图范围内商场进行点选查询时，展示商场概况以及对此商场的品牌分类别的统计。
- 
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/11.png)
 
 9）缓冲区查询
 通过选择缓冲距离，进行点、线、面的缓冲区创建，可以查看缓冲区范围内的商场情况。在地图上任意位置设置一个位置点，并设置缓冲区大小（单位米），搜索缓冲区范围内距离位置点最近的商场。
- 
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/12.png)
 查询结果包括：商场基本情况、距离查询点的距离，并在界面上按照查询距离的大小对所查询到的商场进行阿拉伯数字排序标注。
- 
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/13.png)
 10）自定义查询
 在自定义查询界面选择需要查询的图层，提供两种查询方式：
 a、视野内地图查询
 b、自定义范围查询
 定义的地图查询形状主要有：点、线、矩形、多边形等。查询结果实现地图标注展示和查询面板两种展示，在面版内单击任一查询结果可实现地图弹框，视野变化至该要素范围。同时提供将查询结果导出为单独的图层功能。
- 
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/14.png)
 自定义查询方式：
-  
+    ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/15.png)
 查询结果展示：
  11）路径规划
 基于Arcgis online的在线路径服务，可以设置起终点进行简单的路径规划和导航。
- 
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%2520and%2520vedio/%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92.png)
 4、核心功能介绍
 1）汇总分析
 通过汇总分析，我们可以实时的获取视野范围内商场的总数量，并且对应的商场品牌分类统计。
 在视野内通过数字来标记所在范围内商场的数量，可以直观的看到所在区域商场是否聚集，各个区域所包含的商场数量。
- 
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%2520and%2520vedio/%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%E6%B1%87%E6%80%BB%E5%88%86%E6%9E%90.png)
 2）商场时间轴热度分析
 通过时间轴热度分析，我们可以看到随着时间变化，商场的热度随之发生变化，可以直观的看到不同时段商场人流量的变化。
- 
+   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%2520and%2520vedio/%E7%83%AD%E5%BA%A6%E5%88%86%E6%9E%90.png)
 3）商场流量来源分析
 通过动态的彩色线条，直观的分析展示所选区域内的商场客流量来源情况，通过对滴滴实时定位GPS数据的分析和处理，得到前三个商场的流量来源，通过炫彩的方式展现在地图上。流量来源的大小主要用颜色和点辐射大小决定。其中起点的圆圈辐射越大代表到商场的流量越大。
 流量来源排名前三的商场有:
 TOP1：光华路SOHO的流量
 TOP2：蓝岛大厦
 TOP3：奥士凯东直门商场
- 
-1.2.3 作品现实意义详细阐述
-1、对数据底图提供公司
+ https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%2520and%2520vedio/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90.png
+##1.2.3 作品现实意义详细阐述
+###1、对数据底图提供公司
 将poi及道路数据作为产品展示为底图，能快速、精确的更新底图变化数据，为导航等其他应用提供精准化位置服务。从基础数据中提出的某一类位置数据（例如商场），可为商家选址、人员分配、营销战略分析等提供参考基础。
-2、对商场
+###2、对商场
 1）商场工作人员利用NovMap的时间滑块显示的热度功能，了解到统计时间段内客流量的高峰和低峰期，可依据此参考，在高峰期做相应的打折季促销活动以及增加服务人员的数量等，在低峰期相应的对商品进行补充、人员轮班休息等其他决策。
 2）商场工作人员亦可利用NovMap的客流量动态分布功能，知晓顾客的主要来源位置，从而知道顾客从事的职业及家庭位置，有针对性的在这些位置进行宣传等活动，亦可根据顾客来源，有依据性的对商场未来的品牌入驻及商品更新和囤货。
-3、对去商场的消费者
+###3、对去商场的消费者
 1）消费者利用NovMap的缓冲区查询功能可查找到制定举例范围内的商场位置及商场涉及的各种鞋类及服装等的数量，对消费者就近购物或者指定性购物提供了便利。
 2）消费者利用NovMap的时间滑块显示的热度功能，亦可了解到商场的客流高峰期和低峰期，若需要抢购打折商品，消费者可选择高峰期时间段去商场；若想要避开客流量大的时间，可选择在客流低峰期的时间段去商场，极大的提高了消费者购物的舒适度。
