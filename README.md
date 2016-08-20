@@ -1,11 +1,11 @@
 # 基于滴滴GPS位置大数据的商场营销决策平台
 ##作品功能介绍
-1、主界面一览
+###1、主界面一览
  ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/1.png)
-2、主要功能
+###2、主要功能
 NovMap主要功能分为基础功能和核心功能量大类，其中基础功能9个，核心功能3个，具体如下图所示：
   ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/2.png)
-3、基础功能介绍
+###3、基础功能介绍
 1）图层控制
 通过图层控制控件可以浏览、选择显示或隐藏除底图以外的任意一个图层，同时可以对图层进行如下图的基本操作：缩放、设置透明度、设置显示层级等。
    ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%20and%20vedio/3.png)
@@ -48,7 +48,7 @@ b、自定义范围查询
  11）路径规划
 基于Arcgis online的在线路径服务，可以设置起终点进行简单的路径规划和导航。
    ![image](https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%2520and%2520vedio/%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92.png)
-4、核心功能介绍
+###4、核心功能介绍
 1）汇总分析
 通过汇总分析，我们可以实时的获取视野范围内商场的总数量，并且对应的商场品牌分类统计。
 在视野内通过数字来标记所在范围内商场的数量，可以直观的看到所在区域商场是否聚集，各个区域所包含的商场数量。
@@ -62,7 +62,8 @@ b、自定义范围查询
 TOP1：光华路SOHO的流量
 TOP2：蓝岛大厦
 TOP3：奥士凯东直门商场
- https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%2520and%2520vedio/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90.png
+![image]( https://github.com/mengyingliu/Marketing-Decision-Support-Product/blob/master/pic%2520and%2520vedio/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90.png)
+
 ##1.2.3 作品现实意义详细阐述
 ###1、对数据底图提供公司
 将poi及道路数据作为产品展示为底图，能快速、精确的更新底图变化数据，为导航等其他应用提供精准化位置服务。从基础数据中提出的某一类位置数据（例如商场），可为商家选址、人员分配、营销战略分析等提供参考基础。
